@@ -2,5 +2,5 @@
 $git config --global push.default current
 
 # Agregando un alias
-git config --global alias.nombre-alias "comando para alias"
-
+$ git config --global alias.nombre-alias "comando para alias"
+$ git config --global alias.lg "log --pretty=format:'%h - %an, %ar : %s' --graph"
