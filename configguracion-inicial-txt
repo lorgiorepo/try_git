@@ -1,10 +1,6 @@
 # Configurando la rama por defecto al hacer los push, ello permitira realizar solo git push sin espeficar el repo remoto y la rama
 $git config --global push.default current
 
-# Forma elegante y detallada para ver el log
-$git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-$git log --oneline --abbrev-commit --all --graph --decorate --color
-
 # Agregando un alias
 git config --global alias.nombre-alias "comando para alias"
 

@@ -1,0 +1,12 @@
+# Forma elegante y detallada para ver el log
+$git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+$git log --oneline --abbrev-commit --all --graph --decorate --color
+
+# Historial
+$ git log --stat
+
+# Mostrando el detalle del ultimo commit
+$ git log -p -1
+
+# Historial con formato
+git log --pretty=format:"%h - %an - %s" --graph

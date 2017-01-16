@@ -1,0 +1,4 @@
+# Commit --amend
+# Al olvidar un archivo despues de haber realizado el commit, se puede agregarlo con amend
+git commit --amend --no-edit # Dejando el mismo mensaje
+git commit --amend -m "Nuevo mensaje" # Cambiando el mensaje
